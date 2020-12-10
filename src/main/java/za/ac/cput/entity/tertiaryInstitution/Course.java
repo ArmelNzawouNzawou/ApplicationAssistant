@@ -1,15 +1,13 @@
 package za.ac.cput.entity.tertiaryInstitution;
 
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+
 import java.util.Objects;
 
 
-@Entity
+
 public class Course {
 
-    @Id
     private String courseId;
     private String courseName;
     private String courseCode;

@@ -1,18 +1,16 @@
 package za.ac.cput.entity.tertiaryInstitution;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+
 import java.util.Objects;
 
-@Entity
-//@IdClass(DepartmentCourse.class)
+
+
 public class Department {
 
-    @Id
+
     private String departmentId;
     private String departmentName;
     private String departmentCode;
-    //Create entity DepartmentCourse - shows which courses belong to which department
 
     protected Department(){}
 

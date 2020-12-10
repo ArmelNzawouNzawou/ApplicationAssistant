@@ -6,6 +6,7 @@ import za.ac.cput.entity.tertiaryInstitution.Faculty;
 import za.ac.cput.factory.tertiaryInstitution.FacultyFactory;
 
 
+
 public class FacultyFactoryTest {
 
     Faculty faculty = FacultyFactory.createFaculty("1", "Informatics and Design");
